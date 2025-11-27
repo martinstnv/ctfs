@@ -222,11 +222,13 @@ function escape(input) {
 - Solution
 
 ```
+javascript:prompt(1)#{"action":"X"}
 ```
 
 - HTML Source
 
 ```
+
 ```
 
 
@@ -457,6 +459,7 @@ function escape(input) {
 - Solution
 
 ```
+("source":"???", "_proto_": ["source":"$'|" onerror=prompt"}}
 ```
 
 - HTML Source
