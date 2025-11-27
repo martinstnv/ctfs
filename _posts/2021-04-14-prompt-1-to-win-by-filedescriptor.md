@@ -1,6 +1,6 @@
 ---
 layout: single
-title: prompt(1) to win by filedescriptor
+title: prompt(1) to win
 date: 2021-05-19
 classes: wide
 tags:
